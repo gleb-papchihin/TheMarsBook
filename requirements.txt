@@ -1,0 +1,5 @@
+MADE WITH UBUNTU
+
+php 7.2
+mysql Ver 14.14
+Apache/2.4.29

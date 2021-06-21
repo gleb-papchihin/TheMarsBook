@@ -1,0 +1,150 @@
+body{
+	font-family: 'OpenSans', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	min-width: 800px;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #222;
+}
+
+
+/*-------------------------------------*/
+/*  𝓜𝓮𝓷𝓾 𝓫𝓵𝓸𝓬𝓴  */
+
+#menu{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+#menu_content{
+	z-index: 2;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#performance{
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+}
+
+.performance_text{
+	color: #222;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#icon{
+	width: 25px;
+	height: 25px;
+	margin: 0 5px;
+}
+
+
+/*-------------------------------------*/
+/*  𝓐𝓭𝓭 𝓫𝓵𝓸𝓬𝓴  */
+
+#add{
+	width: 100%;
+	display: flex;
+	padding: 80px 0;
+	align-items: center;
+	flex-direction: column;
+}
+
+#add_container{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+#add_title{
+	width: 400px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 40px;
+}
+
+.add_field{
+	width: 300px;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #222;
+	font-size: 16px;
+}
+
+.add_field::placeholder{
+	color: #888;
+}
+
+#add_file{
+	display: none;
+}
+
+#add_load{
+	width: 300px;
+	height: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#add_icon{
+	height: 20px;
+	margin-right: 10px;
+	user-select: none;
+}
+
+#add_display{
+	color: #888;
+	width: 100%;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+#add_display::-webkit-scrollbar {
+  display: none;
+}
+
+#button{
+	width: 100px;
+	border: none;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FF7640;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 16px;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+#button:hover{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
